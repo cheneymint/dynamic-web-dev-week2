@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'My Custom Font';
+  src: url('my-custom-font.woff2') format('woff2'),
+       url('my-custom-font.woff') format('woff');
+}
+
+body {
+  background-image: url('74054.jpg');
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.left-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.right-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.title {
+  font-family: 'My Custom Font', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 4em;
+  margin: 0;
+}
